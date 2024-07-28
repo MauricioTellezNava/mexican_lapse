@@ -4,7 +4,6 @@ import datetime
 
 app = Flask(__name__)
 
-# Variables globales
 empresa = "Mexican Lapse"
 contador_visitas = 0
 
