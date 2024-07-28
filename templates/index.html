@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ empresa }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    
+    <h1>Bienvenido a {{ empresa }}</h1>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>Fecha y hora actual: {{ fecha_hora_actual.strftime("%Y-%m-%d %H:%M:%S") }}</li>   
+                <li>Número de visitas: {{ contador_visitas }}</li>   
+                <li><a href="https://www.infotec.mx/">Enlace a la aplicación móvil</a></li>  
+            </ul>
+        </nav>  
+        <img class="logo" src="{{ url_for('static', filename='imagenes/img2.svg') }}">
+    </header>
+
+    
+</body>
+<footer>
+    <p>Desarrollado por: Mauricio Daniel Téllez Nava</p>
+    <p>Creado el 28 de julio de 2024</p>
+  </footer>
+</html>
+

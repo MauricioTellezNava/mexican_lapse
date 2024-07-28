@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: black;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #d35400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;  /* Organiza los elementos en una columna */
+    align-items: center;     /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    text-align: center;      /* Asegura que el texto dentro de cada <p> también esté centrado */
+    padding: 20px;           /* Agrega algo de padding para espacio visual */
+    font-size: .75rem;
+}
+
+.logo {
+    display: block;        
+    margin: 0 auto;        
+    max-width: 100%;       
+    height: auto;          
+    width: 45%;  
+}
+
+.menu {
+    background-color: #D5D8DC;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.menu li {
+    display: inline-flex;
+    margin-right: 20px; 
+    padding: 10px;
+}
+
+
